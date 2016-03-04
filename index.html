@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Custom APIs</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>Custom APIs</h1>
+
+  <div class="container-fluid">
+    <div class="row">
+      <div id="gravatarFinder">
+        <div class="col-xs-offset-0 col-xs-4 col-md-2 col-md-offset-4 text-right">
+          <input type="text" id="gravatar" placeholder="Enter Email Address"></input>
+        </div>
+        <div class="col-md-1">
+          <button type="submit" id="createGravatar">Gravatar URL</button>
+        </div>
+        <div id="img" class="col-md-2 text-center">
+          <img src="question-mark.jpg" id="icon" />
+        </div>
+      </div>
+    </div>
+
+
+
+    <div class="row">
+      <div id="sumFinder">
+        <div class="col-xs-2 col-xs-offset-0 col-md-2 col-md-offset-3 text-right">
+          <input type="number" id="num1" placeholder="Enter Number"></input> 
+        </div>  
+        <div class="col-xs-2 col-xs-offset-0 col-md-1 col-md-offset-0">
+          <input type="number" id="num2" placeholder="Enter Number"></input>
+        </div>
+        <div class="col-md-1 col-md-offset-0">
+          <button type="submit" id="findSum">Find the Sum</button>
+        </div>
+        <div id="totalSum" class="col-md-2 text-right"></div>
+      </div>
+    </div>
+
+
+
+    <div class="row">
+      <div id="squareFinder">
+        <div class="col-xs-3 col-xs-offset-0 col-md-2 col-md-offset-4 text-right">
+          <input type="number" id="sqNum" placeholder="Enter a Number"></input> 
+        </div> 
+        <div class="col-md-2">
+          <button type="submit" id="findSquare">Square the Number</button>
+        </div>
+        <div id="numSquared"></div>
+      </div>
+    </div>
+
+
+
+    <div class="row">
+      <div id="sentenceFinder">
+        <div class="col-xs-3 col-xs-offset-0 col-md-2 col-md-offset-4 text-right">
+          <input type="text" id="sentence" placeholder="Enter a Sentence"></input>
+        </div>  
+        <div class="col-md-1 col-md-offset-0">
+          <button type="submit" id="sentenceCounter">Sentence Counter</button>
+        </div>
+        <div id="sentenceDetails" class="col-md-4 text-center"></div>
+      </div>
+    </div>
+
+
+
+    <div class="row">
+      <div id="birthdateFinder">
+        <div class="col-xs-3 col-xs-offset-0 col-md-2 col-md-offset-4 text-right">
+          <input type="date" id="birthdate" placeholder="Enter your Birthdate"></input>  
+        </div>
+        <div class='col-md-1'>
+          <button type="submit" id="findBirthdate">Find Birthday Info</button>
+        </div>
+        <div id="birthdateInfo" class="col-md-4 text-center"></div>
+      </div>
+    </div>
+
+  </div>
+
+
+
+  <script src="https://code.jquery.com/jquery-2.2.1.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <script src="main.js"></script>
+
+</body>
+</html>

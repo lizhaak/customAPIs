@@ -1,0 +1,74 @@
+h1 {
+  text-align: center;
+  color: #d1d1d1;
+  text-decoration: underline;
+}
+
+button#createGravatar {
+  width: 110px;
+  height: 26px;
+}
+
+button#findSum {
+    width: 105px;
+    height: 26px;
+    margin-left: 30px;
+}
+
+input#num1 {
+    width: 115px;
+}
+
+input#num2 {
+    width: 115px;
+}
+
+.row {
+  margin-bottom: 15px;
+}
+
+button#findSquare {
+    width: 150px;
+    height: 26px;
+}
+
+body {
+  background-color: #075254;
+}
+
+img#icon {
+    border: 5px solid #d1d1d1;
+    width: 90px;
+}
+
+div#totalSum {
+    color: #d1d1d1;
+    font-size: 18px;
+}
+
+div#numSquared {
+    color: #d1d1d1;
+    font-size: 18px;
+}
+
+button#sentenceCounter {
+    width: 130px;
+}
+
+div#sentenceDetails {
+    color: #d1d1d1;
+    font-size: 18px;
+}
+
+button#sentenceCounter {
+    width: 130px;
+}
+
+div#birthdateInfo {
+    color: #d1d1d1;
+    font-size: 18px;
+}
+
+button#findBirthdate {
+    width: 130px;
+}
